@@ -7,7 +7,7 @@ describe('auth-router', function() {
     // beforeEach(async () => {
     //     await db('users').truncate();
     // })
-    describe.skip('POST /register', function() {
+    describe('POST /register', function() {
         
         it('should register a new user and return a 201 Created', function() {
             
